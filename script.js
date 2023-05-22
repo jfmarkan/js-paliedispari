@@ -14,10 +14,9 @@ for ( let i = iterations - 1; i >= 0; i-- ){
 }
 
 function palindromeCheck (array1, array2) {
-        if (array1.toString() === array2.toString()){
-            return true;
-        }
-        return false;
+    if (array1.toString() === array2.toString()){
+        return true;
+    }
 }
 
 if (palindromeCheck(straightWord, reverseWord)){
@@ -25,3 +24,4 @@ if (palindromeCheck(straightWord, reverseWord)){
     } else {
     console.log ('The word ' + wordToVerify + ' is not a Palindrome');
     }
+
